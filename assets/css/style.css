@@ -1,16 +1,6 @@
 body {
-  background-color: #83c0c1;
-}
-
-.nanum-gothic coding-regular {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-.nanum-gothic coding-regular {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 400;
-  font-style: normal;
+  background: linear-gradient(#1e03a3, #02cad1);
+  /* #3887be */
 }
 
 .header {
@@ -34,7 +24,7 @@ body {
 }
 .header__link:focus {
   outline: none;
-  background-color: #6962ad;
+  background-color: #3e29f7;
   border-radius: 5px;
 }
 .icone {
@@ -66,17 +56,59 @@ body {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 26px;
-  color: #6c22a6;
+  font-size: 22px;
+  color: #080152;
   margin: 16px 0;
 }
 .perfil__descricao {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.section {
+  border: 1px solid red;
+  padding: 8px;
+  width: 100%;
+  max-width: 350px;
+  margin: 24px auto;
+}
+.section__titulo {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
-  margin: 0;
-  width: 100%;
-  max-width: 350px;
-  text-align: center;
+  font-size: 18px;
+  color: #080152;
+  margin: 16px 0;
+}
+.curso {
+  border: 1px solid red;
+  background-color: rgba(0, 91, 151, 0.212);
+  padding: 8px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.curso__titulo {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #080152;
+  margin: 8px 0;
+}
+.curso__descricao{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  color: lightcyan;
+  margin: 8px 0;
 }
