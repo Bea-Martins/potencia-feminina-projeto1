@@ -1,6 +1,6 @@
 body {
   background-color: #080152;
-  background-image: url("/assets/imagens/stars.png");
+  background-image: url("./assets/imagens/stars.png");
   /* background: linear-gradient( #1e03a3, #02cad1); */
   margin: 0;
   height: 100vh;
