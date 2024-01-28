@@ -1,5 +1,5 @@
 body {
-  background-image: url("/assets/imagens/stars.png");
+  background-image: url("../imagens/stars.png");
   background-color: #080152;
   /* background: linear-gradient( #1e03a3, #02cad1); */
   margin: 0;
@@ -46,7 +46,7 @@ body {
 
 .main {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   padding: 8px;
   box-sizing: border-box;
   margin: 0 auto;
