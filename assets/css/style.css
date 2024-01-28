@@ -14,7 +14,7 @@ body {
 
 .header {
   width: 100%;
-  max-width: 900px;
+  /* max-width: 900px; */
   padding: 8px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -46,7 +46,7 @@ body {
 
 .main {
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   padding: 8px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -79,14 +79,14 @@ body {
   font-size: 16px;
   margin: 0;
   width: 100%;
-  max-width: 600px;
+  max-width: 80%;
   text-align: center;
 }
 
 .section {
   padding: 8px;
   width: 100%;
-  max-width: 350px;
+  max-width: 90%;
   margin: 24px auto;
   box-sizing: border-box;
 }
@@ -101,7 +101,7 @@ body {
 .curso {
   background-color: rgba(0, 91, 151, 0.212);
   padding: 8px;
-  margin: 16px 0;
+  margin: 36px 0;
   box-sizing: border-box;
   border-radius: 5px;
 }
